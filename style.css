@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  min-height: 100vh;
+}
+
+body .wrapper {
+  height: 100vh;
+  position: relative;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+header img {
+  width: 130px;
+}
+
+header .nav-buttons a i {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+header .nav-buttons {
+  margin-right: 15px;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .search-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+main .search-section img {
+  width: 140px;
+ /* margin-top: 40px;*/
+}
+
+main .search-section .search-box a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 8px;
+  color: #fff;
+  font-size: 25px;
+}
+
+main .search-section .search-box {
+  display: flex;
+  align-items: center;
+}
+
+main .search-section .search-box #search {
+  border-radius: 40px;
+  height: 40px;
+  width: 250px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 0 20px;
+  font-size: 14.5px;
+}
+
+main .history-off-section {
+  width: 360px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px 30px 20px;
+  border-radius: 15px;
+  
+  
+  
+}
+
+main .history-off-section h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+main .history-off-section p {
+  font-size: 12.5px;
+}
+
+main .history-off-section p a {
+  color: #1F70F4;
+  text-decoration: none;
+  font-size: 12.5px;
+}
+
+main .history-off-section button {
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+  font-size: 13px;
+  width: 100%;
+   border: none;
+   outline: none;
+   height: 40px;
+   border-radius: 40px;
+   transition: all 10ms linear;
+  
+}
+
+main .history-off-section button:hover {
+  transform: scale(.98)
+}
+
+footer {
+  background: #0f0f0f;
+  width: 100%;
+  min-height: 50px;
+  bottom: 0;
+  border-top: 1px solid rgba(255,255,255,.3);
+  position: fixed;
+  bottom: 0;
+  
+  
+}
+
+footer .footer-buttons {
+  width: 380px;
+  height: 50px;
+  margin: 0 auto;
+  background: #0f0f0f;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer .black {
+  width: 100%;
+  height: 10px;
+  background: rgba(0,0,0,1);
+
+  
+}
+
+footer .icon img {
+  width: 30px;
+  
+}
+
+footer div .user-profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  
+}
+
+footer .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+/*  border: 1px solid #0f0; */
+}
+
+footer .footer-buttons .icon i {
+  font-size: 25px;
+  color: #fff;
+  
+}
+
+.footer-buttons .icon p {
+  color: #fff;
+  font-size: 9px;
+}
+
+.footer-buttons .add-icon i {
+  font-size: 35px !important;
+  
+}
+
+.footer-buttons .add-icon {
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  
+}
+
+.user-profile .img-border {
+  background: #4070f4;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  padding: 1px;
+}
